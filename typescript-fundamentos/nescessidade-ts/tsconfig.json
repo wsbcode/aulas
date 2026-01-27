@@ -12,7 +12,7 @@
       "declarationMap": false,
 
       /* 3. Comportamento no Navegador */
-      "moduleDetection": "auto",
+      "moduleDetection": "force",
       "verbatimModuleSyntax": false,
       "isolatedModules": true,
 
