@@ -1,44 +1,25 @@
 {
-   // Visit https://aka.ms/tsconfig to read more about this file
    "compilerOptions": {
-      // File Layout
-      "rootDir": "./src",
-      "outDir": "./public",
-
-      // Environment Settings
-      // See also https://aka.ms/tsconfig/module
-      "module": "nodenext",
+      /* 1. Destino e Fonte */
       "target": "esnext",
-      "types": [],
-      // For nodejs:
-      // "lib": ["esnext"],
-      // "types": ["node"],
-      // and npm install -D @types/node
+      "module": "esnext",
+      "outDir": "./public",
+      "rootDir": "./src",
 
-      // Other Outputs
+      /* 2. Limpeza (O que NÃO criar) */
       "sourceMap": false,
       "declaration": false,
       "declarationMap": false,
 
-      // Stricter Typechecking Options
-      "noUncheckedIndexedAccess": true,
-      "exactOptionalPropertyTypes": true,
-
-      // Style Options
-      // "noImplicitReturns": true,
-      // "noImplicitOverride": true,
-      // "noUnusedLocals": true,
-      // "noUnusedParameters": true,
-      // "noFallthroughCasesInSwitch": true,
-      // "noPropertyAccessFromIndexSignature": true,
-
-      // Recommended Options
-      "strict": true,
-      "jsx": "react-jsx",
-      "verbatimModuleSyntax": true,
+      /* 3. Comportamento no Navegador */
+      "moduleDetection": "auto",
+      "verbatimModuleSyntax": false,
       "isolatedModules": true,
-      "noUncheckedSideEffectImports": true,
-      "moduleDetection": "force",
-      "skipLibCheck": true
+
+      /* 4. Segurança e Rigor */
+      "strict": true,
+      "noEmitOnError": true,
+      "skipLibCheck": true,
+      "jsx": "react-jsx"
    }
 }
