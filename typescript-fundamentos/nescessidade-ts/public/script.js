@@ -1,4 +1,3 @@
-"use strict";
 // AULAS DE ( TypeScript) , mostrando exemplo do TypeScrip
 let numero1 = document.getElementById("numero1");
 let numero2 = document.getElementById("numero2");
@@ -13,3 +12,4 @@ botao.addEventListener("click", function () {
     let exibir = somar(valor1, valor2);
     resposta.innerHTML = `A soma entre ${valor1} + ${valor2} é = ${exibir}`;
 });
+export {};
