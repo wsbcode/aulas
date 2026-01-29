@@ -1,6 +1,6 @@
 # aulas
 
-Estudos Programação
+Estudos de Programação
 
 JavaScript
 TypeScript
