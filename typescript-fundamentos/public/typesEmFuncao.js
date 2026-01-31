@@ -16,6 +16,7 @@ function apagarMensagem() {
    // Se você tentar salvar em uma variável, ela ficará vazia (undefined).
 }
 console.log(apagarMensagem());
+
 //  Exemplo de função SEM (void)
 // Processa um dado e retorna um valor para quem chamou.
 function formatarMoeda(valor) {
