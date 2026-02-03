@@ -4,5 +4,9 @@ const meuCarro = {
     modelo: "Com Escada",
     ano: 2024,
     // 'flex' foi omitido sem gerar erro por ser opcional
+    dono: {
+        nome: "William",
+        cnh: 999999,
+    },
 };
 export {};

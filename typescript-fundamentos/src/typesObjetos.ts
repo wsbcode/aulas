@@ -1,7 +1,7 @@
 // Define a estrutura obrigatória (contrato) do objeto
 interface Propietario {
    nome: string; // Obrigatório: texto
-   cnh: number; // Obrigatório: número
+   cnh?: number; // Obrigatório: número
 }
 
 export interface Carro {
