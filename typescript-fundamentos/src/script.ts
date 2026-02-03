@@ -2,8 +2,8 @@
 
 let numero1 = document.getElementById("numero1") as HTMLInputElement;
 let numero2 = document.getElementById("numero2") as HTMLInputElement;
-let botao = document.getElementById("calcular") as HTMLInputElement;
-let resposta = document.getElementById("resultado") as HTMLInputElement;
+let botao = document.getElementById("calcular") as HTMLButtonElement;
+let resposta = document.getElementById("resultado") as HTMLBodyElement;
 
 function somar(n1: number, n2: number) {
    return n1 + n2;
